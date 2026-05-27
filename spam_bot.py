@@ -3,8 +3,9 @@ from discord.ext import commands
 import asyncio
 
 # ─── CONFIG ────────────────────────────────────────────────────────────────────
-TOKEN = "MTUwOTAxNTcyMDk0MjUwMTkwOA.GUkneq.zxdARQr83wqUKj0HqSwcK92-oQymChoQKVc8zs"       # ← Remplace par ton token Discord
-DELAY = 1.5                    # Délai entre chaque message (en secondes)
+import os
+TOKEN = os.environ.get("MTUwOTAxNTcyMDk0MjUwMTkwOA.GUkneq.zxdARQr83wqUKj0HqSwcK92-oQymChoQKVc8zs")    # ← Remplace par ton token Discord
+DELAY = 0,5                    # Délai entre chaque message (en secondes)
 # ───────────────────────────────────────────────────────────────────────────────
 
 intents = discord.Intents.all()
