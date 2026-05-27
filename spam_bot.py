@@ -5,7 +5,7 @@ import asyncio
 # ─── CONFIG ────────────────────────────────────────────────────────────────────
 import os
 TOKEN = os.environ.get("TOKEN")    # ← Remplace par ton token Discord
-DELAY = 0,5                    # Délai entre chaque message (en secondes)
+DELAY = 1                  # Délai entre chaque message (en secondes)
 # ───────────────────────────────────────────────────────────────────────────────
 
 intents = discord.Intents.all()
